@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5CC1273A-CB46-4198-B195-3AF2D16D1DB3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SinemaOtomasyonuWinForm</RootNamespace>
+    <AssemblyName>SinemaOtomasyonuWinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BiletFiyatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BiletFiyatForm.Designer.cs">
+      <DependentUpon>BiletFiyatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmDuzenleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmDuzenleForm.Designer.cs">
+      <DependentUpon>FilmDuzenleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmEkleForm.Designer.cs">
+      <DependentUpon>FilmEkleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisForm.Designer.cs">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterForm.Designer.cs">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalonDuzenleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonDuzenleForm.Designer.cs">
+      <DependentUpon>SalonDuzenleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalonEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonEkleForm.Designer.cs">
+      <DependentUpon>SalonEkleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatisBiletSecimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisBiletSecimForm.Designer.cs">
+      <DependentUpon>SatisBiletSecimForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisForm.Designer.cs">
+      <DependentUpon>SatisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeansDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeansDuzenle.Designer.cs">
+      <DependentUpon>SeansDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeansEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeansEkleForm.Designer.cs">
+      <DependentUpon>SeansEkleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiDuzenleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YoneticiDuzenleForm.Designer.cs">
+      <DependentUpon>YoneticiDuzenleForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BiletFiyatForm.resx">
+      <DependentUpon>BiletFiyatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmDuzenleForm.resx">
+      <DependentUpon>FilmDuzenleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmEkleForm.resx">
+      <DependentUpon>FilmEkleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisForm.resx">
+      <DependentUpon>GirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterForm.resx">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SalonDuzenleForm.resx">
+      <DependentUpon>SalonDuzenleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalonEkleFOrm.resx">
+      <DependentUpon>SalonEkleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisBiletSecimForm.resx">
+      <DependentUpon>SatisBiletSecimForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisForm.resx">
+      <DependentUpon>SatisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeansDuzenle.resx">
+      <DependentUpon>SeansDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeansEkleForm.resx">
+      <DependentUpon>SeansEkleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YoneticiDuzenleForm.resx">
+      <DependentUpon>YoneticiDuzenleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SinemaOtomasyonuORM\SinemaOtomasyonuORM.csproj">
+      <Project>{69939e1f-a1f7-4fdf-b283-1131016fb535}</Project>
+      <Name>SinemaOtomasyonuORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

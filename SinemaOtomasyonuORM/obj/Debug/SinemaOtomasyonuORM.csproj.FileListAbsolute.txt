@@ -1,0 +1,5 @@
+c:\users\hakan\documents\visual studio 2015\Projects\SinemaOtomasyonu\SinemaOtomasyonuORM\bin\Debug\SinemaOtomasyonuORM.dll
+c:\users\hakan\documents\visual studio 2015\Projects\SinemaOtomasyonu\SinemaOtomasyonuORM\bin\Debug\SinemaOtomasyonuORM.pdb
+c:\users\hakan\documents\visual studio 2015\Projects\SinemaOtomasyonu\SinemaOtomasyonuORM\obj\Debug\SinemaOtomasyonuORM.csprojResolveAssemblyReference.cache
+c:\users\hakan\documents\visual studio 2015\Projects\SinemaOtomasyonu\SinemaOtomasyonuORM\obj\Debug\SinemaOtomasyonuORM.dll
+c:\users\hakan\documents\visual studio 2015\Projects\SinemaOtomasyonu\SinemaOtomasyonuORM\obj\Debug\SinemaOtomasyonuORM.pdb
